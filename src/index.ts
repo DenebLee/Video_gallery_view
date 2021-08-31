@@ -66,3 +66,4 @@ function recalculateLayout() {
 const debouncedRecalculateLayout = debounce(recalculateLayout, 50);
 window.addEventListener("resize", debouncedRecalculateLayout);
 debouncedRecalculateLayout();
+//
