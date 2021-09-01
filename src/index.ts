@@ -66,4 +66,5 @@ function recalculateLayout() {
 const debouncedRecalculateLayout = debounce(recalculateLayout, 50);
 window.addEventListener("resize", debouncedRecalculateLayout);
 debouncedRecalculateLayout();
-//
+
+//use video tag. google meet use video tag for participants camera render . but Zoom use one canvas for participnats render 
