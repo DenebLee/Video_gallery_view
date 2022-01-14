@@ -1,5 +1,6 @@
 import "./index.scss";
 import debounce from "lodash/debounce";
+//경로 수정시 체크 바람
 
 function recalculateLayout() {
   const gallery = document.getElementById("gallery");
