@@ -11,6 +11,7 @@ function recalculateLayout() {
 
   // or use this nice lib: https://github.com/fzembow/rect-scaler
   function calculateLayout(
+  // Layout value check!
     containerWidth: number,
     containerHeight: number,
     videoCount: number,
